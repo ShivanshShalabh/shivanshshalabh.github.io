@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#signature-div {
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  position: absolute;
+  opacity: 0;
+  z-index: 10000;
+  /* background-color: var(--dark-theme-black); */
+  background-color: rgb(32, 32, 32);
+
+  top: 0;
+  left: 0;
+  animation: sign-div-bg 5.5s ease-out;
+}
+
+#signature {
+  width: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  fill: transparent;
+  transform: translate(-50%, -50%);
+}
+
+#signature > path{
+  stroke: white;
+}
+#signature > path:nth-child(2) {
+  stroke-dasharray: 738.34228515625px;
+  stroke-dashoffset: 738.34228515625px;
+  animation: sign-animation-1 3s ease-out forwards;
+}
+
+#signature > path:nth-child(3) {
+  stroke-dasharray: 517.6249389648438px;
+  stroke-dashoffset: 517.6249389648438px;
+  animation: sign-animation-2 3s ease-out forwards 0.2s;
+}
+
+#signature > path:nth-child(4) {
+  stroke-dasharray: 231.9468231201172px;
+  stroke-dashoffset: 231.9468231201172px;
+  animation: sign-animation-3 3s ease-out forwards 0.4s;
+}
+
+#signature > path:nth-child(5) {
+  stroke-dasharray: 262.5661926269531px;
+  stroke-dashoffset: 262.5661926269531px;
+  animation: sign-animation-4 3s ease-out forwards 0.6s;
+}
+
+#signature > path:nth-child(6) {
+  stroke-dasharray: 392.2497863769531px;
+  stroke-dashoffset: 392.2497863769531px;
+  animation: sign-animation-5 3s ease-out forwards 0.8s;
+}
+
+#signature > path:nth-child(7) {
+  stroke-dasharray: 418.5220947265625px;
+  stroke-dashoffset: 418.5220947265625px;
+  animation: sign-animation-6 3s ease-out forwards 1s;
+}
+
+#signature > path:nth-child(8) {
+  stroke-dasharray: 253.73101806640625px;
+  stroke-dashoffset: 253.73101806640625px;
+  animation: sign-animation-7 3s ease-out forwards 1.2s;
+}
+
+#signature > path:nth-child(9) {
+  stroke-dasharray: 517.6254272460938px;
+  stroke-dashoffset: 517.6254272460938px;
+  animation: sign-animation-8 3s ease-out forwards 1.4s;
+}
+
+@keyframes sign-animation-1 {
+  0% {
+    stroke-dashoffset: 738.34228515625px;
+  }
+
+  20% {
+    stroke-dashoffset: 0;
+  }
+
+  70% {
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dashoffset: 738.34228515625px;
+  }
+}
+
+@keyframes sign-animation-2 {
+  0% {
+    stroke-dashoffset: 517.6249389648438px;
+  }
+
+  20% {
+    stroke-dashoffset: 0;
+  }
+
+  70% {
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dashoffset: 517.6249389648438px;
+  }
+}
+
+@keyframes sign-animation-3 {
+  0% {
+    stroke-dashoffset: 231.9468231201172px;
+  }
+
+  20% {
+    stroke-dashoffset: 0;
+  }
+
+  70% {
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dashoffset: 231.9468231201172px;
+  }
+}
+
+@keyframes sign-animation-4 {
+  0% {
+    stroke-dashoffset: 262.5661926269531px;
+  }
+
+  20% {
+    stroke-dashoffset: 0;
+  }
+
+  70% {
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dashoffset: 262.5661926269531px;
+  }
+}
+
+@keyframes sign-animation-5 {
+  0% {
+    stroke-dashoffset: 392.2497863769531px;
+  }
+
+  20% {
+    stroke-dashoffset: 0;
+  }
+
+  70% {
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dashoffset: 392.2497863769531px;
+  }
+}
+
+@keyframes sign-animation-6 {
+  0% {
+    stroke-dashoffset: 418.5220947265625px;
+  }
+
+  20% {
+    stroke-dashoffset: 0;
+  }
+
+  70% {
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dashoffset: 418.5220947265625px;
+  }
+}
+
+@keyframes sign-animation-7 {
+  0% {
+    stroke-dashoffset: 253.73101806640625px;
+  }
+
+  20% {
+    stroke-dashoffset: 0;
+  }
+
+  70% {
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dashoffset: 253.73101806640625px;
+  }
+}
+
+@keyframes sign-animation-8 {
+  0% {
+    stroke-dashoffset: 517.6254272460938px;
+  }
+
+  20% {
+    stroke-dashoffset: 0;
+  }
+
+  70% {
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dashoffset: 517.6254272460938px;
+  }
+}
+
+@keyframes sign-div-bg {
+  0% {
+    opacity: 1;
+  }
+
+  92.7% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
