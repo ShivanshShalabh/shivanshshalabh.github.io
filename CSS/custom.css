@@ -483,15 +483,15 @@ h1 span {
   filter: brightness(.75);
 }
 
-.navbar button{
+.navbar button {
   border: none;
   outline: none;
   background: transparent;
   margin-left: auto;
 }
 
-.recommendations-div{
-  
+.recommendations-div {
+  align-items: flex-start;
   row-gap: 30px;
-  
+
 }
